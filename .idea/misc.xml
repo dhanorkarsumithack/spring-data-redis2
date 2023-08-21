@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/redis-example/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-cache-spring-master/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-example2/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-example3/pom.xml" />
+        <option value="$PROJECT_DIR$/RedisCache/pom.xml" />
+        <option value="$PROJECT_DIR$/springDataRedis/pom.xml" />
+        <option value="$PROJECT_DIR$/RedisExample4/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/redis-example3/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="openjdk-17 (2)" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
