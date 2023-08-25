@@ -10,6 +10,7 @@
         <module name="redis-pubsub" />
         <module name="redis-example2" />
         <module name="RedisCache" />
+        <module name="distributed-cache1" />
         <module name="redis-example (1)" />
         <module name="redis-stream-consumer" />
         <module name="redis-example (2)" />
@@ -27,6 +28,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="RedisCache" options="-parameters" />
       <module name="RedisExample4" options="-parameters" />
+      <module name="distributed-cache1" options="-parameters" />
       <module name="redis-example" options="-parameters" />
       <module name="redis-example (1)" options="-parameters" />
       <module name="redis-example (2)" options="-parameters" />
