@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>redis-stream-consumer</artifactId>
+    <artifactId>redis-stream-publisher</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>redis-stream-consumer</name>
-    <description>redis-stream-consumer</description>
+    <name>redis-stream-publisher</name>
+    <description>redis-stream-publisher</description>
     <properties>
         <java.version>11</java.version>
     </properties>

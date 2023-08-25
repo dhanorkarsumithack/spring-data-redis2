@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/redis-pubsub/pom.xml" />
         <option value="$PROJECT_DIR$/redis-stream-publisher/pom.xml" />
         <option value="$PROJECT_DIR$/redis-stream-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-stream-producer/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
