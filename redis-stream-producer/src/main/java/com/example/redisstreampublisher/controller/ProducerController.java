@@ -20,14 +20,14 @@ public class ProducerController {
     private Producer producer;
 
     @RequestMapping(value = "/publisher",method = RequestMethod.POST)
-    public ResponseEntity<Void> publish(@RequestBody String message) {
+    public ResponseEntity<String > publish(@RequestBody String message) {
 
         try {
             log.info("publishing >>" + message);
             producer.publishEvent(message.toString());
-            return new ResponseEntity<>(HttpStatus.CREATED);
+            return new ResponseEntity<>("Message published successfully -> "+message, HttpStatus.CREATED);
         } catch (Exception e) {
-            return new ResponseEntity<>(HttpStatus.UNPROCESSABLE_ENTITY);
+            return new ResponseEntity<>("Failed to publish message", HttpStatus.UNPROCESSABLE_ENTITY);
         }
     }
 }

@@ -21,7 +21,6 @@ import java.time.Duration;
 @Configuration
 public class RedisConfiguration {
 
-
     @Value("${stream.key}")
     private String streamKey;
 
@@ -55,7 +54,8 @@ public class RedisConfiguration {
                 .create(jedisConnectionFactory(), options);
         var subscription = listenerContainer.receive(
 //                Consumer.from(streamKey, InetAddress.getLocalHost().getHostName()),
-                StreamOffset.create(streamKey, ReadOffset.latest()),
+//                StreamOffset.create(streamKey, ReadOffset.latest()), //takes latest value
+                StreamOffset.create(streamKey, ReadOffset.from("8")), //this also takes past value
                 streamListener);
         listenerContainer.start();
         return subscription;

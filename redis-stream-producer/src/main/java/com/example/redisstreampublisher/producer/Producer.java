@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.redis.connection.stream.ObjectRecord;
 import org.springframework.data.redis.connection.stream.StreamRecords;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
 import java.util.concurrent.atomic.AtomicInteger;
@@ -24,7 +25,7 @@ public class Producer {
         this.redisTemplate = redisTemplate;
     }
 
-    //@Scheduled(fixedRateString= "${publish.rate}")
+    @Scheduled(fixedRateString= "${publish.rate}")
     public void publishEvent(String request){
         ObjectRecord<String, String> record = StreamRecords.newRecord()
                 .ofObject(request)
@@ -33,5 +34,7 @@ public class Producer {
                 .opsForStream()
                 .add(record);
         atomicInteger.incrementAndGet();
+        System.out.println("AtomicInteger value: " + atomicInteger.incrementAndGet()); // Print the current value
+
     }
 }
