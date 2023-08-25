@@ -7,11 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="redis-example (2)" />
+        <module name="redis-pubsub" />
         <module name="redis-example2" />
         <module name="RedisCache" />
-        <module name="RedisExample4" />
         <module name="redis-example (1)" />
+        <module name="redis-stream-consumer" />
+        <module name="redis-example (2)" />
+        <module name="redis-stream-publisher" />
+        <module name="RedisExample4" />
         <module name="springDataRedis" />
       </profile>
     </annotationProcessing>
@@ -29,6 +32,9 @@
       <module name="redis-example (2)" options="-parameters" />
       <module name="redis-example2" options="-parameters" />
       <module name="redis-example3" options="-parameters" />
+      <module name="redis-pubsub" options="-parameters" />
+      <module name="redis-stream-consumer" options="-parameters" />
+      <module name="redis-stream-publisher" options="-parameters" />
       <module name="springDataRedis" options="-parameters" />
     </option>
   </component>
