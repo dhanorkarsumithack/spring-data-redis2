@@ -15,6 +15,7 @@
         <module name="redis-stream-consumer" />
         <module name="redis-example (2)" />
         <module name="redis-stream-publisher" />
+        <module name="LibraryApplication" />
         <module name="RedisExample4" />
         <module name="springDataRedis" />
       </profile>
@@ -26,6 +27,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="LibraryApplication" options="-parameters" />
       <module name="RedisCache" options="-parameters" />
       <module name="RedisExample4" options="-parameters" />
       <module name="distributed-cache1" options="-parameters" />

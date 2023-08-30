@@ -1,6 +1,6 @@
-C:\Learning\Spring Projects\spring data redis\redis-cache-spring-master\src\main\java\com\example\demoredis\service\UserService.java
-C:\Learning\Spring Projects\spring data redis\redis-cache-spring-master\src\main\java\com\example\demoredis\repository\UserRepository.java
-C:\Learning\Spring Projects\spring data redis\redis-cache-spring-master\src\main\java\com\example\demoredis\DemoRedisApplication.java
-C:\Learning\Spring Projects\spring data redis\redis-cache-spring-master\src\main\java\com\example\demoredis\controller\UserController.java
-C:\Learning\Spring Projects\spring data redis\redis-cache-spring-master\src\main\java\com\example\demoredis\impl\UserServiceImpl.java
-C:\Learning\Spring Projects\spring data redis\redis-cache-spring-master\src\main\java\com\example\demoredis\domain\User.java
+C:\Users\HP\Documents\Learning\Spring boot\spring-data-redis2\redis-cache-spring-master\src\main\java\com\example\demoredis\impl\UserServiceImpl.java
+C:\Users\HP\Documents\Learning\Spring boot\spring-data-redis2\redis-cache-spring-master\src\main\java\com\example\demoredis\DemoRedisApplication.java
+C:\Users\HP\Documents\Learning\Spring boot\spring-data-redis2\redis-cache-spring-master\src\main\java\com\example\demoredis\repository\UserRepository.java
+C:\Users\HP\Documents\Learning\Spring boot\spring-data-redis2\redis-cache-spring-master\src\main\java\com\example\demoredis\controller\UserController.java
+C:\Users\HP\Documents\Learning\Spring boot\spring-data-redis2\redis-cache-spring-master\src\main\java\com\example\demoredis\service\UserService.java
+C:\Users\HP\Documents\Learning\Spring boot\spring-data-redis2\redis-cache-spring-master\src\main\java\com\example\demoredis\domain\User.java

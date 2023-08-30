@@ -1,0 +1,6 @@
+com\example\demoredis\domain\User.class
+com\example\demoredis\repository\UserRepository.class
+com\example\demoredis\impl\UserServiceImpl.class
+com\example\demoredis\controller\UserController.class
+com\example\demoredis\DemoRedisApplication.class
+com\example\demoredis\service\UserService.class

@@ -5,6 +5,8 @@ import com.cache.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/api/book")
 public class BookController {
@@ -31,5 +33,10 @@ public class BookController {
     @DeleteMapping("/delete/{id}")
     public String deleteBook(long id){
         return service.deleteBook(id);
+    }
+
+    @GetMapping
+    public List<Book> getAllBooks(){
+        return service.getAllBooks();
     }
 }
