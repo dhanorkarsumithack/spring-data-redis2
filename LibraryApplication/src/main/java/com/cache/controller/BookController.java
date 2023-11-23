@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+//this is api of book
 @RestController
 @RequestMapping("/api/book")
 public class BookController {
